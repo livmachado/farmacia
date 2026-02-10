@@ -1,6 +1,6 @@
 // Formata tipo number para valor em Real
 
-export function formatarMoeda(valor: number): string {
+export function formatCurrency(valor: number): string {
 	return new Intl.NumberFormat('pt-BR', {
 		style: 'currency',
 		currency: 'BRL'
